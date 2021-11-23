@@ -19,16 +19,16 @@
     <div class="login-box">
         <form action="insert.php" method="post"> 
         <h1>Login</h1>
+        
         <div class="textbox">
             <i class="fas fa-user" aria-hidden="true"></i>
-            <input type="textbox" placeholder="username" name="username" >
+            <input type="textbox" placeholder="username" name="username" required>
         </div>
         <div class="textbox">
             <i class="fas fa-lock" aria-hidden="true"></i>
-            <input type="password" placeholder="password" name="password" >
+            <input type="password" placeholder="password" name="password" required>
         </div>
      
-
         <input class="btn-login" type="submit" name="submit" value="LOGIN">
         </form>
     </div>

@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url("pexels-mathew-thomas-3378916.jpg") no-repeat;
+    background-image: url("image.jpg");
     background-size: cover;
  
 }.login-box{
